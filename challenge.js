@@ -16,3 +16,17 @@ let temp = myName;
     myNumber = temp;
 console.log("My new name is " + myName);
 console.log("My new number is " + myNumber);
+
+//Print multiples of 3 from -300 to 0
+function multiplesBy3(){
+for(let i = -300; i <= 0; i++){
+    if( i % 3 === 0){
+        console.log(i)
+        }
+     else if( i === -6 || i === -3){
+        continue
+        }
+    }
+
+}
+multiplesBy3()
