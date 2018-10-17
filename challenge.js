@@ -30,3 +30,13 @@ for(let i = -300; i <= 0; i++){
 
 }
 multiplesBy3()
+
+
+//print "good moring!" 98 times"
+function beCheerful(){
+    for(let i = 0; i <= 98; i++){
+        console.log("good morning!")
+    }
+}
+
+beCheerful();
