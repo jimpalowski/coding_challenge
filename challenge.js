@@ -5,4 +5,14 @@ function printNums(){
     }
 }
 
-printNums()
+ printNums()
+
+//swap an int variable with a string variable vice versa
+
+let myNumber = 42;
+let myName = "Jim";
+let temp = myName;
+    myName = myNumber;
+    myNumber = temp;
+console.log("My new name is " + myName);
+console.log("My new number is " + myNumber);
